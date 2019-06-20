@@ -12,11 +12,12 @@ $(document).ready(function(){
     var wins = 0;
     var losses = 0;
     
+    
   $('#numberWins').text(wins);
   $('#numberLosses').text(losses);
   
   function reset(){
-        Random=Math.floor(Math.random()*101+19);
+        Random=Math.floor(Math.random()*99+1);
         console.log(Random)
         $('#randomNumber').text(Random);
         num1= Math.floor(Math.random()*9+1);

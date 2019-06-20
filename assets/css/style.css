@@ -10,12 +10,10 @@ div{
 	border: solid 2px antiquewhite;
 	padding: 10px;
 }
-h1, h3{
-	font-weight: bold;
-	text-align: center;
-}
 h1{
-	font-size: 30pt;
+	font-weight: bold;
+    text-align: center;
+    font-size: 30pt;
 }
 ol{
 	list-style: decimal inside; 
@@ -46,18 +44,5 @@ div.header, div.instructions{
 }
 .gemImage{
 	height: 60px;
-    margin: 10px;
-}
-
-#blue{
-	color: #3092c7;
-}
-#green{
-	color: #00aa59;
-}
-#red{
-	color: #ec4b5f;
-}
-#yellow{
-	color: #ffc225;
+    margin: 5px;
 }
